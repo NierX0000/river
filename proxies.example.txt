@@ -1,0 +1,8 @@
+# Daftar proxy, 1 per baris. Contoh format:
+#user:pass@host:port
+#http://user:pass@host:port
+#socks5://user:pass@host:port
+#127.0.0.1:8080
+#
+# CATATAN: proxy datacenter menghambat Turnstile "smart".
+# Sebaiknya pakai proxy residential/ISP agar signup lolos.

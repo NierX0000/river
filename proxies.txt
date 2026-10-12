@@ -1,0 +1,25 @@
+# ============================================================
+# proxies.txt — daftar proxy untuk river-camoufox-farmer
+# 1 proxy per baris. Baris diawali '#' = komentar (diabaikan).
+# ============================================================
+#
+# Format yang didukung:
+#   user:pass@host:port
+#   http://user:pass@host:port
+#   https://user:pass@host:port
+#   socks5://user:pass@host:port
+#   host:port                (tanpa auth, mis. proxy lokal)
+#
+# Contoh (hapus '#' lalu isi punyamu):
+#user:pass@1.2.3.4:8080
+#http://user:pass@1.2.3.4:3128
+#socks5://user:pass@1.2.3.4:1080
+#127.0.0.1:8888
+#
+# CATATAN PENTING:
+#   Turnstile "smart" sering GAGAL di proxy datacenter (AWS/DO/dll).
+#   Untuk signup WorkOS AuthKit river.ai, disarankan proxy residential/ISP.
+#   Kalau tidak punya proxy, jalankan tanpa --proxy-file (langsung IP sendiri).
+http://brd-customer-hl_07f74c30-zone-isp_proxy1:sk6u7v2bd8n6@brd.superproxy.io:44445
+http://user-W7nj1LLKsgjG6sUt-type-residential-country-id-state-DKI_Jakarta:LlOdH9jcC5rQ9tIQ@geo.g-w.info:10080
+https://user-W7nj1LLKsgjG6sUt-type-residential-country-SG:LlOdH9jcC5rQ9tIQ@geo.g-w.info:10443

@@ -1,0 +1,2 @@
+# River AI Farmer (Camoufox)
+camoufox[geoip]>=0.4.0
